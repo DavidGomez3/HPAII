@@ -12,12 +12,16 @@
         frm_calculo.Show()
     End Sub
 
-    Private Sub btn_manejoTextos_Click(sender As Object, e As EventArgs) Handles btn_manejoTextos.Click
+    Private Sub btn_manejoTextos_Click(sender As Object, e As EventArgs)
         frmEntrada.Show()
 
     End Sub
 
     Private Sub btn_finalizar_Click(sender As Object, e As EventArgs) Handles btn_finalizar.Click
         Close()
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
+
     End Sub
 End Class
